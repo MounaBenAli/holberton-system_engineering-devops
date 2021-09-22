@@ -1,0 +1,1 @@
+This is a project about the shell and all its basics rules and commands. 
