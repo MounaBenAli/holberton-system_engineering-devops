@@ -1,0 +1,2 @@
+#!bin/bash
+ls -la /root/project/0x00-shell_basics
