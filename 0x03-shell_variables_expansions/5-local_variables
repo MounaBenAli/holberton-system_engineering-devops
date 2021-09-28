@@ -1,2 +1,2 @@
-#!/bin/bas
-env
+#!/bin/bash
+printenv | less
