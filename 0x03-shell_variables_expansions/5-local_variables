@@ -1,2 +1,2 @@
-#!/bin/bash
-declare -xp
+#!/bin/bas
+env
