@@ -9,12 +9,12 @@ Otherwise, displays the number
 In a list format
 
 for ((i=1;i<=100;i++)); do
-    if ! ((i%3 && i%5)); then
-        echo FizzBuzz
+    if  ((i%3 == 0 && i%5 == 0)); then
+        echo "FizzBuzz"
     elif ! ((i%3)); then
-        echo Fizz
+        echo "Fizz"
     elif ! ((i%5)); then
-        echo Buzz
+        echo "Buzz"
     else
         echo $i
     fi;
