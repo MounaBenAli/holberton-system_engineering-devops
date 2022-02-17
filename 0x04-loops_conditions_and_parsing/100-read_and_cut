@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # This script displays the content of the file /etc/passwd.
+# Your script should only display:username, user id, path for the user
 
 FILENAME="/etc/passwd"
-while IFS=: read -r username password userid groupid comment homedir cmdshell
+while IFS=: read -r username userid homedir
 do
   echo "$username:$userid:$homedir"
 done < $FILENAME
