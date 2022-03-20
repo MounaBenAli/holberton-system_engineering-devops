@@ -20,6 +20,27 @@ server?](https://intranet.hbtn.io/rltoken/Nb8B47Y2D8SLqQMOKVoQyQ)
 * [What is a firewall](https://intranet.hbtn.io/rltoken/HrYI70d_nxUPZeufjUYzIw)
 
 ---
+---
+
+### [0. Simple web stack](./0-simple_web_stack)
+* A lot of websites are powered by simple web infrastructure, a lot of time it is composed of a single server with a LAMP stack.
+
+
+### [1. Distributed web infrastructure](./1-distributed_web_infrastructure)
+* On a whiteboard, design a three server web infrastructure that hosts the website www.foobar.com.
+
+
+### [2. Secured and monitored web infrastructure](./2-secured_and_monitored_web_infrastructure)
+* On a whiteboard, design a three server web infrastructure that hosts the website www.foobar.com, it must be secured, serve encrypted traffic, and be monitored.
+
+
+### [3. Scale up](./3-scale_up)
+* Requirements: You must add:
+* 1 server
+* 1 load-balancer (HAproxy) configured as cluster with the other one
+* Split components (web server, application server, database) with their own server
+
+---
 ## Learning Objectives:bulb:
 What you should learn from this project:
 
@@ -32,5 +53,5 @@ What you should learn from this project:
 
 ## Authors :black_nib:
 * **Mouna Ben Ali** - <[MounaBenAli](https://github.com/MounaBenAli)>
-* **Mouna Ben Ali** - <[insert github name of auhor Aymen Ben Slima](https://github.com/MounaBenAli)>
-* **Mouna Ben Ali** - <[Saif EddineElleuch](https://github.com/MounaBenAli)>
+* **Aymen Ben Slima** - <[github.com/aymenbs22](https://github.com/aymenbs22)>
+* **Saif Elleuch** - <[Saif EddineElleuch](https://github.com/saifelleuch)>
