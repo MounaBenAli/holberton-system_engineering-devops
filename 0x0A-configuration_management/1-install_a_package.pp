@@ -1,6 +1,5 @@
 #Manifest installs package puppet-lint.
 
-¤puppet-lint = 
 
 package { 'puppet-lint':
   ensure   => 'present',
