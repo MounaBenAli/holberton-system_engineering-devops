@@ -1,5 +1,9 @@
-#Manifest installs puppet-lint.
+#Manifest installs package puppet-lint.
+
+¤puppet-lint = 
 
 package { 'puppet-lint':
-  ensure  => '2.5.0',
+  ensure   => 'present',
+  ensure   => '2.5.0',
+  provider => 'gem',
 }
