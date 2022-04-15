@@ -1,5 +1,5 @@
-#Script installs puppet-lint.
+#Manifest installs puppet-lint.
 
 package { 'puppet-lint':
-  ensure  => 'installed',
+  ensure  => '2.5.0',
 }
