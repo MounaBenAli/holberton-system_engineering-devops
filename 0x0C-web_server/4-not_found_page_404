@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#This script configures the Nginx server so that /redirect_me is redirecting to another page.
+
+sudo apt-get update
+sudo apt-get -y install nginx
+echo "Hello World" > /var/www/html/index.html
+sudo /etc/init.d/nginx start
+
