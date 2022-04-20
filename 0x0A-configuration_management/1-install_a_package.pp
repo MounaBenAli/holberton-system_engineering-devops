@@ -1,6 +1,6 @@
-# Manifest installs package puppet-lint.
+# Manifest installs package flask.
 
-package { 'puppet-lint':
-  ensure   => '2.5.0',
-  provider => 'gem',
+package { ['flask==2.1.0']:
+  ensure => present,
+  provider => pip3,
 }
