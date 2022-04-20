@@ -1,6 +1,5 @@
 # Manifest installs package flask.
 
-package { ['flask==2.1.0']:
-  ensure => present,
-  provider => pip3,
+exec {'sudo pip3 install flask -v 2.1.0':
+    path => ['/usr/bin'],
 }
