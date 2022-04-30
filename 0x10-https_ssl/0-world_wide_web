@@ -4,7 +4,7 @@
 
 parseParam()
 {
-    awk '/ANSWER SECTION:/{getline; split($1,array,"."); print "The subdomain" ,array[1], " is a" $4 "record and points to", $NF}'
+    awk '/ANSWER SECTION:/{getline; split($1,array,"."); print "The subdomain" ,array[1], " is a",$4, "record and points to", $NF}'
 }
 
 if [ $# -eq 1 ]; then
